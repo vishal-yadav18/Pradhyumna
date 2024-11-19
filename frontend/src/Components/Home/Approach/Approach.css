@@ -1,0 +1,49 @@
+.outerContainer{
+    background-color: #201C1B;
+    width: 1440px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.innerContainer > .title{
+    width: 187px;
+    height: 56px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 56.25px;
+    text-align: left;
+    font-size: 48px;
+    margin-top: 47px;
+    margin-bottom: 46px;
+}
+
+.innerContainer{
+    background-image: url('../../../assets/approachBG.gif');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+
+    width: 1362px;
+    height: 579.53px;
+}
+
+.innerContainer > img{
+    width: 690.47px;
+    height: 315.53px;
+    margin-top: 40px;
+}
+
+.innerContainer>p{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.11px;
+
+    color: white;
+    width: 1206px;
+    height: 78px;
+    margin-top: 0px;
+}

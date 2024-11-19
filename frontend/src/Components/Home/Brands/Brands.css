@@ -1,0 +1,31 @@
+.brandsContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #201C1B;
+    width: 1440px;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+
+    background-image: url('../../../assets/brands_bg_animation.gif'), url('../../../assets/brands_bg_animation.gif');
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: center, center;
+    background-position-x: left, right;
+    background-size: 450px 450px;
+}
+
+.title {
+    margin-top: 0px;
+    width: 859px; 
+    height: auto;
+    color: #F3F1F2;
+    font-family: Roboto;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 112.5px;
+    text-align: left;
+    white-space: nowrap;
+    margin-bottom: 75px;
+}

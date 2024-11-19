@@ -1,0 +1,110 @@
+.cuInnerContainer {
+    margin-top: 0px;
+    background-color: #201c1b;
+    background-image: url('../../../assets/cubes.gif');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 1440px;
+    height: 700px;
+}
+
+.cuTitle {
+    color: white;
+    width: 722px;
+    height: 113px;
+    font-family: Roboto;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 112.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.pointItems {
+    width: 350px;
+    height: 251px;
+    margin-left: 50px;
+}
+
+.pointItems > p {
+    color: white;
+}
+
+.pointItemsTitle {
+    width: 336px;
+    height: 87px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42.19px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.titleNum,
+.titleHeading {
+    color: #0B808A;
+}
+
+.pointItems > p {
+    width: 385px;
+    height: 128px;
+
+    
+    color: white; 
+    margin-top: 10px;
+
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.13px;
+    word-spacing: normal;
+    text-align: justified;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.pointItemsContainer {
+    margin-top: 170px;
+    display: flex;
+    width: 1284px;
+    height: 257px;
+    justify-content: center;
+}
+
+.titleHeading {
+    width: 336px;
+    height: 42px;
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42.19px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.titleNum{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    width: 37px;
+    height: 38px;
+
+
+}

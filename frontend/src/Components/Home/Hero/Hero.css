@@ -1,0 +1,75 @@
+.introContainer {
+    background-color: #201C1B;
+    display: flex;
+    flex-direction: row; /* Default: row direction for horizontal layout */
+    gap: 36px; /* This will create a 36px gap between flex items */
+    width: 1440px;
+    height: 817px;
+}
+
+.descriptionContainer {
+    width: 700px;
+    height: auto;
+    margin-left: 47px;
+    margin-top: 151px;
+}
+
+.descriptionContainer > p {
+    width: 600px;
+    height: 90px;
+    color: #DCC4B9;
+    font: Roboto;
+    font-weight: 400;
+    line-height: 30.47px;
+    font-size: 26px;
+}
+
+.heading {
+    color: #0B808A;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80.45px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.imageContainer{
+    width: 1300px;
+    height: 550.5px;
+    margin-top: 236px;
+    display: block;
+    position: relative;
+    right: 10px;
+}
+
+.imageContainer > img{
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+button {
+    width: 137px;
+    height: 43px;
+    margin-top: 36px;
+    background-color: #DCC4B9;
+    border: 2px solid #DCC4B9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0.46px 0px #F3EFF1;
+    box-shadow: 0px 0px 0.92px 0px #F3EFF1;
+    box-shadow: 0px 0px 11.05px 0px #F3EFF1;
+}
+
+.learnMore {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.fa-angle-right {
+    font-weight: 500;
+    font-size: 18px;
+}

@@ -1,0 +1,9 @@
+.glimpseContainer{
+    background-color: #F47121;
+    width: 1440px;
+    height: 546px;
+    display: flex;
+
+    box-sizing: border-box;
+}
+
