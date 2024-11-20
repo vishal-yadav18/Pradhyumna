@@ -9,7 +9,7 @@
     margin: 0px;
     padding: 0px;
 
-    background-image: url('../../../assets/brands_bg_animation.gif'), url('../../../assets/brands_bg_animation.gif');
+    background-image: url('/brands_bg_animation.gif'), url('/brands_bg_animation.gif');
     background-repeat: no-repeat, no-repeat;
     background-position-y: center, center;
     background-position-x: left, right;

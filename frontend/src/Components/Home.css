@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100vw;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #201C1B;
+}
+
+/* Hero Section */
+.homeIntroContainer {
+    background-color: #201C1B;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.homeDescriptionContainer {
+    width: 80%;
+    height: auto;
+    margin-left: 47px;
+    margin-top: 151px;
+}
+
+.homeDescriptionContainer > p {
+    width: 80%;
+    height: auto;
+    text-align: left;
+    color: #DCC4B9;
+    font: Roboto;
+    font-weight: 400;
+    line-height: 30.47px;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.homeHeading {
+    color: #0B808A;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80.45px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 30px;
+}
+
+.homeImageContainer {
+    width: 100%;
+    height: 500px;
+    margin-top: 236px;
+    display: block;
+    position: relative;
+    right: 10px;
+}
+
+.homeImageContainer > img {
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+button {
+    width: 137px;
+    height: 43px;
+    margin-top: 36px;
+    background-color: #DCC4B9;
+    border: 2px solid #DCC4B9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11.05px 0px #F3EFF1;
+}
+
+.homeLearnMore {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 21.6px;
+}
+
+.fa-angle-right {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Brands Section */
+.homeBrandsContainer {
+    background-image: url('/brands_bg_animation.gif'), url('/brands_bg_animation.gif');
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 70%, 70%;
+    background-position-x: -20%, 120%;
+    background-size: 50%;
+
+    background-color: #201C1B;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeBrandsTitle {
+    margin-top: 2em;
+    color: white;
+
+    font-family: Roboto;
+    font-size: 5em;
+    font-weight: 600;
+    line-height: 112.5px;
+    text-align: left;
+
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.homeBrandsImagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    width: 70%;
+    height: 70%;
+    margin-top: 1.8em;
+}
+
+.homeBrandsImagesContainer img{
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/* Choose Us Section */
+.homeChooseUsContainer {
+    width: 100vw;
+    height: 1000px;
+    background-color: #201C1B;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.homeChooseUsTitle {
+    background-image: url(/cube.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:contain;
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-bottom: 15%;
+}
+
+.homePointItemsContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.homePointItem {
+    max-width: 350px;
+    text-align: left;
+    color: white;
+}
+
+
+.homePointItem > p {
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.7em;
+    font-weight: 200;
+    font-family: Roboto;
+    color: white;
+    height: auto;
+}
+
+.homePointItemTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.homeTitleNum {
+    font-size: 2em;
+    font-weight: 600;
+    color: #0B808A;
+    text-align: left;
+}
+
+.homeTitleHeading {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #0B808A;
+    font-family: Roboto;
+}
+
+/* Glimpse Section */
+.homeGlimpseContainer {
+    background-color: #F47121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.homeGlimpseImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.homeGlimpseDesc{
+    font-family: Lato;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Approach Section */
+.homeApproachOuterContainer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.homeApproachInnerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/approachBG.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    text-align: center;
+}
+
+.homeApproachTitle {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.homeApproachInnerContainer > p {
+    width: 90%;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 1.15rem;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.homeApproachInnerContainer > img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}

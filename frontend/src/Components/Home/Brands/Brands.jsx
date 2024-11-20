@@ -2,7 +2,6 @@ import React from 'react'
 import ImageComponent from './ImageComponent'
 import brands from './brandConfig'
 import './Brands.css'
-import animation from '../../../assets/brands_bg_animation.gif'
 
 const Brands = () => {
   return (

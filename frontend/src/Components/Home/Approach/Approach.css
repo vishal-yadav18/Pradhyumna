@@ -19,7 +19,7 @@
 }
 
 .innerContainer{
-    background-image: url('../../../assets/approachBG.gif');
+    background-image: url('/approachBG.gif');
     display: flex;
     flex-direction: column;
     align-items: center;

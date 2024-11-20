@@ -1,7 +1,7 @@
 .cuInnerContainer {
     margin-top: 0px;
     background-color: #201c1b;
-    background-image: url('../../../assets/cubes.gif');
+    background-image: url('/cubes.gif');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;

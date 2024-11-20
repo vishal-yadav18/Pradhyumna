@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageComponent = ({height, width, src, style = {}}) => {
+const ImageComponent = ({height, width, src='', style = {}}) => {
 
   const defaultStyles = {
     borderRadius: '10px',

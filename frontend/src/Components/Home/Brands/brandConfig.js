@@ -1,9 +1,9 @@
-import anaar from '../../../assets/anaar.png'
-import neude from '../../../assets/neude.png'
-import goodbug from '../../../assets/goodbug.png'
-import smartsters from '../../../assets/smartsters.png'
-import sorrentina from '../../../assets/sorrentina.png'
-import bie from '../../../assets/bie.png'
+import anaar from '/anaar.png'
+import neude from '/neude.png'
+import goodbug from '/goodbug.png'
+import smartsters from '/smartsters.png'
+import sorrentina from '/sorrentina.png'
+import bie from '/bie.png'
 
 const brands = {
     anaar,
